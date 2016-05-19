@@ -1,0 +1,76 @@
+:root {
+    --lmain-color:#DFD;
+    --dmain-color:#121;
+    --laccent-color:#6FA;
+    --daccent-color:#04AA22;
+    --accent-color:#1F3;
+    --main-font:"Lato";
+}
+
+/***BG***/
+body {
+    background-image:url(../img/bg.png);
+    
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: top center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed;
+}
+
+/***Flex***/
+
+
+/***NAVBAR***/
+#navbar {
+    padding:1%;
+}
+
+#navbar ul {
+    list-style: none;
+}
+
+#navbar a, #navbar a:visited {
+    font-family: var(--main-font);
+    font-size: 18px;
+    color:var(--dmain-color);
+    line-height: 1.75em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-style: normal;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    color:var(--daccent-color);
+}
+
+#navbar #selected {
+    color:var(--laccent-color);
+}
+
+/***TITLE-AREA***/
+#title-area {
+    text-align:center;
+    font-family: var(--main-font);
+    color:var(--accent-color);
+    font-size: 10vmin;
+
+    background-color:rgba(0,0,0,0.8);
+    display: inline-block;
+    margin-left: 28%;
+    margin-right:35%;
+    margin-top:  4%;
+    padding:3%;
+    border-radius: 2.5vmin 5vmin;
+}
+
+#title-area-info {
+    font-size: 12px;
+    color: var(--lmain-color);
+
+    margin-top: 5%;
+}
