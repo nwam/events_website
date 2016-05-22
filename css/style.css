@@ -1,9 +1,13 @@
 :root {
     --lmain-color:#DFD;
     --dmain-color:#121;
-    --laccent-color:#6FA;
-    --daccent-color:#04AA22;
-    --accent-color:#1F3;
+
+    --llaccent-color:#c9ff99 ; 
+    --laccent-color:#a0ff4d;
+    --accent-color:#92ff33;
+    --daccent-color:#479900;
+    --ddaccent-color:#244d00;
+
     --main-font:"Lato";
 }
 
@@ -19,10 +23,41 @@ body {
     background-attachment: fixed;
 }
 
-/***Flex***/
-
-
 /***NAVBAR***/
+#navbar-custom {
+    background:transparent;
+    border:0;
+    border-radius: 0;
+}
+
+#navbar-custom a {
+    font-size: 18px;
+    color: black;
+    font-family:var(--main-font);
+    background:rgba(201,255,153,0.2);
+}
+
+#navbar-custom a:hover {
+    background:rgba(201,255,153,0.5);
+}
+
+#navbar-custom .active a {
+    background:var(--llaccent-color);
+} 
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+
+
+
+/***OLD! NAVBAR***
 #navbar {
     padding:1%;
 }
@@ -33,7 +68,7 @@ body {
 
 #navbar a, #navbar a:visited {
     font-family: var(--main-font);
-    font-size: 18px;
+    font-size: 24px;
     color:var(--dmain-color);
     line-height: 1.75em;
     text-transform: uppercase;
@@ -48,29 +83,8 @@ body {
     color:var(--daccent-color);
 }
 
-#navbar #selected {
-    color:var(--laccent-color);
+#navbar #current-page a {
+    color:var(--ddaccent-color);
 }
 
-/***TITLE-AREA***/
-#title-area {
-    text-align:center;
-    font-family: var(--main-font);
-    color:var(--accent-color);
-    font-size: 10vmin;
-
-    background-color:rgba(0,0,0,0.8);
-    display: inline-block;
-    margin-left: 28%;
-    margin-right:35%;
-    margin-top:  4%;
-    padding:3%;
-    border-radius: 2.5vmin 5vmin;
-}
-
-#title-area-info {
-    font-size: 12px;
-    color: var(--lmain-color);
-
-    margin-top: 5%;
-}
+*/
