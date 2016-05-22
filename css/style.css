@@ -1,90 +1,65 @@
 :root {
-    --lmain-color:#DFD;
-    --dmain-color:#121;
+  --lmain-color:#DFD;
+  --dmain-color:#121;
 
-    --llaccent-color:#c9ff99 ; 
-    --laccent-color:#a0ff4d;
-    --accent-color:#92ff33;
-    --daccent-color:#479900;
-    --ddaccent-color:#244d00;
+  --llaccent-color:#c9ff99 ; 
+  --laccent-color:#a0ff4d;
+  --accent-color:#92ff33;
+  --daccent-color:#479900;
+  --ddaccent-color:#244d00;
 
-    --main-font:"Lato";
+  --main-font:"Lato";
 }
 
 /***BG***/
 body {
-    background-image:url(../img/bg.png);
-    
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: top center !important;
-    background-repeat: no-repeat !important;
-    background-attachment: fixed;
+  background-image:url(../img/bg.png);
+  
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed;
 }
 
 /***NAVBAR***/
 #navbar-custom {
-    background:transparent;
-    border:0;
-    border-radius: 0;
+  background:transparent;
+  border:0;
+  border-radius: 0;
 }
 
 #navbar-custom a {
-    font-size: 18px;
-    color: black;
-    font-family:var(--main-font);
-    background:rgba(201,255,153,0.2);
+  font-size: 18px;
+  color: black;
+  font-family:var(--main-font);
+  background:rgba(201,255,153,0.2);
 }
 
 #navbar-custom a:hover {
-    background:rgba(201,255,153,0.5);
+  background:rgba(201,255,153,0.5);
 }
 
 #navbar-custom .active a {
-    background:var(--llaccent-color);
+  background:var(--llaccent-color);
 } 
 
 .navbar .navbar-nav {
-    display: inline-block;
-    float: none;
+  display: inline-block;
+  float: none;
 }
 
 .navbar .navbar-collapse {
-    text-align: center;
+  text-align: center;
 }
 
-
-
-
-/***OLD! NAVBAR***
-#navbar {
-    padding:1%;
+/***LAYOUT***/
+#felx-container{
+  display: flex; 
+  flex-flow: row nowrap;
+  justify-content: centre;
+  align-items: centre;
+  align-content: stretch;
+  padding-top: 5%;
 }
-
-#navbar ul {
-    list-style: none;
-}
-
-#navbar a, #navbar a:visited {
-    font-family: var(--main-font);
-    font-size: 24px;
-    color:var(--dmain-color);
-    line-height: 1.75em;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-weight: 400;
-    font-style: normal;
-    list-style-type: none;
-    text-decoration: none;
-}
-
-#navbar a:hover {
-    color:var(--daccent-color);
-}
-
-#navbar #current-page a {
-    color:var(--ddaccent-color);
-}
-
-*/

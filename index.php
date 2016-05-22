@@ -12,15 +12,17 @@
   <div id="outer-wrapper">
   <?php include("nav.php"); ?>
   
-  <div id="inner-wrapper">
+  <div id="felx-container">
     <div id="title-area">
-    WEBSITE
-    NAME
-    <div id="title-area-info">
-      catchy phrase or contact info or both
-    </div>
+      <div id="title">
+        WEBSITE<br>
+        NAME
+      </div>
+      <div id="title-area-info">
+        catchy phrase or contact info or both
+      </div>
     </div> 
-  </div> <!-- inner-wrapper -->
+  </div> <!-- flex-container -->
   </div> <!-- outer-wrapper -->
 </body>
 </html>
