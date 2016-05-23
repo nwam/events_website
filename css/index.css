@@ -1,12 +1,4 @@
 /***TITLE-AREA***/
-
-#flex-title-container {
-  display: flex; 
-  flex-flow: row;
-  overflow: auto;
-  margin-top:12%;
-}
-
 #title-area {
     text-align:center;
     font-family: var(--main-font);
@@ -18,6 +10,14 @@
 
     padding:3%;
 }
+
+#flex-title-container {
+  display: flex; 
+  flex-flow: row;
+  overflow: auto;
+  margin-top:12%;
+}
+
 
 #title {
    display:inline-block; 

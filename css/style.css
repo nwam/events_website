@@ -74,12 +74,6 @@ body {
   font-size: 18px;
 }
 
-.card {
-  margin-bottom: 24px;
-  padding: 24px;
-  background: rgba(231,255,211, 0.88);
-}
-
 #left-space {
   order:1;
   flex: 1 10 50%;
@@ -90,4 +84,27 @@ body {
   order:3;
   flex: 1 10 50%;
 
+}
+
+/***Design***/
+#title-card {
+    text-align:center;
+    font-family: var(--main-font);
+    color:var(--accent-color);
+    font-size: 10vmin;
+
+    background-color:rgba(0,0,0,0.8);
+    border-radius: 5vmin 5vmin 0 0;
+
+    padding:3%;
+}
+
+.card {
+  padding: 24px;
+  background: rgba(231,255,211, 0.88);
+}
+
+.divider {
+  height: 24px;
+  background: rgba(0,0,0,0.75);
 }
