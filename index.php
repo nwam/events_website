@@ -12,8 +12,8 @@
   <div id="outer-wrapper">
   <?php include("nav.php"); ?>
   
-  <div id="felx-container">
-    <div id="title-area">
+  <div id="flex-title-container">
+    <div id="title-area" class="flex-item">
       <div id="title">
         WEBSITE<br>
         NAME

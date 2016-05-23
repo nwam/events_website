@@ -1,5 +1,12 @@
 /***TITLE-AREA***/
 
+#flex-title-container {
+  display: flex; 
+  flex-flow: row;
+  overflow: auto;
+  margin-top:12%;
+}
+
 #title-area {
     text-align:center;
     font-family: var(--main-font);
@@ -9,8 +16,6 @@
     background-color:rgba(0,0,0,0.8);
     border-radius: 2.5vmin 5vmin;
 
-    margin: auto;
-    margin-top: 8%;
     padding:3%;
 }
 

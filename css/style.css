@@ -55,11 +55,39 @@ body {
 }
 
 /***LAYOUT***/
-#felx-container{
+#flex-container {
   display: flex; 
-  flex-flow: row nowrap;
-  justify-content: centre;
-  align-items: centre;
-  align-content: stretch;
-  padding-top: 5%;
+  flex-flow: row;
+  overflow: auto;
+}
+
+.flex-item {
+  flex: 0 1 auto;
+  margin: auto;
+}
+
+#content-wrapper {
+  order:2;
+  flex: 0 0 90%;
+  max-width: 1100px;
+
+  font-size: 18px;
+}
+
+.card {
+  margin-bottom: 24px;
+  padding: 24px;
+  background: rgba(231,255,211, 0.88);
+}
+
+#left-space {
+  order:1;
+  flex: 1 10 50%;
+
+}
+
+#right-space {
+  order:3;
+  flex: 1 10 50%;
+
 }
