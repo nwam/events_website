@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php $thisPage="Services";?>
+<?php $thisPage="About";?>
 
 <head>
   <?php include("head.php"); ?>
-  <title>WEBSITE NAME | Services</title>
+  <title>WEBSITE NAME | About</title>
 </head>
 
 <body>   

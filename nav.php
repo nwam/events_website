@@ -22,10 +22,10 @@
       <a href="services.php">Services
       <?php if ($thisPage=="Services") echo "<span class=\"sr-only\">(current)</span>" ?></a></li>
     <li <?php if ($thisPage=="About") echo "class=\"active\"" ?>>
-      <a href="#">About
+      <a href="about.php">About
       <?php if ($thisPage=="About") echo "<span class=\"sr-only\">(current)</span>" ?></a></li>
     <li <?php if ($thisPage=="Contact") echo "class=\"active\"" ?>>
-      <a href="#">Contact
+      <a href="contact.php">Contact
       <?php if ($thisPage=="Contact") echo "<span class=\"sr-only\">(current)</span>" ?></a></li>
     </ul>
 
