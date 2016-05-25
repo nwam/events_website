@@ -5,6 +5,7 @@
 <head>
   <?php include("head.php"); ?>
   <title>WEBSITE NAME | Contact</title>
+  <link rel="stylesheet" href="css/contact.css">
 </head>
 
 <body>   
@@ -24,7 +25,31 @@
 
       <div class="card">
         <h2>Send Us a Message</h2>
-        <input></input>
+        <h5>&nbsp&nbsp&nbspLet us know what we can do for you :)</h5>
+
+        <div class="input-group col-xs-4">
+            <div class="input-title">Name*</div>
+            <input type="text" class="form-control" placeholder="First Name">
+            <input type="text" id="last-name" class="form-control" placeholder="Last Name">
+        </div>
+    
+        <div class="input-group col-xs-4">
+            <div class="input-title">Email Address*</div>
+            <input type="text" class="form-control">
+        </div>
+
+        <div class="input-group col-xs-4">
+            <div class="input-title">Phone Number</div>
+            <input type="text" class="form-control">
+        </div>
+
+        <div class="input-group">
+            <div class="input-title">Message*</div>
+            <textarea class="form-control" rows=6 cols=75></textarea>
+        </div>
+
+        <button class="btn">Send message</button>
+
       </div><div class="divider-last"></div>
 
     </div>  <!-- content-wrapper -->
