@@ -25,30 +25,32 @@
 
       <div class="card">
         <h2>Send Us a Message</h2>
-        <h5>&nbsp&nbsp&nbspLet us know what we can do for you :)</h5>
+        <h5>&nbsp;&nbsp;&nbsp;Let us know what we can do for you :)</h5>
 
-        <div class="input-group col-xs-4">
+        <form action="send_email.php" method="post">
+        <div class="input-group col-xs-6">
             <div class="input-title">Name*</div>
-            <input type="text" class="form-control" placeholder="First Name">
-            <input type="text" id="last-name" class="form-control" placeholder="Last Name">
+            <input type="text" class="form-control" placeholder="First Name" name="firstname">
+            <input type="text" id="last-name" class="form-control" placeholder="Last Name" name="lastname">
         </div>
     
-        <div class="input-group col-xs-4">
+        <div class="input-group col-xs-6">
             <div class="input-title">Email Address*</div>
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="email">
         </div>
 
-        <div class="input-group col-xs-4">
+        <div class="input-group col-xs-6">
             <div class="input-title">Phone Number</div>
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="phone">
         </div>
 
         <div class="input-group">
             <div class="input-title">Message*</div>
-            <textarea class="form-control" rows=6 cols=75></textarea>
+            <textarea class="form-control" rows=6 cols=75 name="message"></textarea>
         </div>
 
-        <button class="btn">Send message</button>
+        <input class="btn" type="submit" value="Send Message">
+        </form>
 
       </div><div class="divider-last"></div>
 
