@@ -89,7 +89,7 @@ body {
 /***Design***/
 .card {
   padding: 18px 32px;
-  background: rgba(231,255,211, 0.88);
+  background: rgba(231,255,211, 1);
 }
 
 .divider {

@@ -23,9 +23,9 @@
         dolor sit amet, consectetur adipiscing elit. Nam eleifend tortor magna. In mollis risus vel neque bibendum eleifend. Donec tincidunt nunc eget diam dignissim eleifend. Proin ut justo nec neque mattis faucibus. Phasellus arcu metus, rutrum in lorem et, sodales euismod lectus. Donec pellentesque vitae quam nec condimentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec non elit at lectus ornare ornare sit amet eget lacus. Nullam risus risus, cursus ut velit nec, faucibus dictum odio.
       </div><div class="divider"></div>
 
-      <div class="card">
+      <div id="contact_form" class="card">
+        
         <h2>Send Us a Message</h2>
-        <h5>&nbsp;&nbsp;&nbsp;Let us know what we can do for you :)</h5>
 
         <form action="send_email.php" method="post">
         <div class="input-group col-xs-6">

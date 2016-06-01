@@ -26,3 +26,10 @@
 .btn:hover {
     background: #8A8;
 }
+
+#contact_form {
+    background-image: url("../img/mail.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 175vmin;
+}
